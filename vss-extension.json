@@ -4,11 +4,11 @@
     "version": "0.2.13",
     "name": "Build Results Enhancer",
     "description": "A simple extension that demonstrates how to extend build summary page.",
-    "publisher": "fabrikam",
+    "publisher": "BhagyarajMallampalli",
     "public": false,
     "icons": {
         "default": "images/fabrikam-logo.png"
-    },    
+    },
     "tags": [
         "Build"
     ],
@@ -17,7 +17,7 @@
     ],
     "categories": [
         "Developer samples"
-    ],   
+    ],
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -26,7 +26,7 @@
     "files": [
         {
             "path": "images",
-            "addressable": true          
+            "addressable": true
         },
         {
             "path": "dist",
@@ -57,12 +57,12 @@
             "path": "src/Tasks",
             "addressable": true,
             "packagePath": "Tasks"
-        },                  
+        },
         {
             "path": "node_modules/vss-web-extension-sdk/lib",
             "addressable": true,
             "packagePath": "lib"
-        }        
+        }
     ],
     "contributions": [
         {
